@@ -1,1 +1,24 @@
 node_modules
+
+#  git --version
+#  git init     
+#  git status 
+#  git add . 
+#  git commit -m 'first commit'
+#  Now create repo on github
+#  git remote add origin https://github.com/Aakashmaimt/weatherproject.git
+#  git remote
+#  ls ~/.ssh        to check is there any ssh key exist
+#  ssh-keygen -t rsa -b 4096 -C 'aakashrajput9927@gmail.com'
+#  ls ~/.ssh            output id_rsa  id_rsa.pub
+#  eval "$(ssh-agent -s)"       output  Agent pid 474
+#  ssh-add -K ~/.ssh/id_rsa
+#  goto github  settings/ssh and gpg keys and click on new
+#  cat ~/.ssh/id_rsa.pub        generate public key and enter this key to github
+
+#  ssh -T git@github.com        to test connection
+#  git push -u origin master
+
+#  git status
+#  git add .            for updating new changes to github
+#  git commit -m 'update commit'
