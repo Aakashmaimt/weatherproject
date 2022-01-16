@@ -22,3 +22,8 @@ node_modules
 #  git status
 #  git add .            for updating new changes to github
 #  git commit -m 'update commit'
+
+
+
+#  git clone project_git_link
+#  we can transfer our website data through wetransfer website as well
