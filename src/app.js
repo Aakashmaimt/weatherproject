@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const hbs = require('hbs');
 const app = express();
+const port = process.env.PORT || 8000;
 
 const publicPath = path.join(__dirname,'../public');
 const template_path = path.join(__dirname,'../templates/views');
@@ -28,6 +29,6 @@ app.get('*',(req,res)=>{
     res.render('404error');
 })
 
-app.listen(8000,()=>{
+app.listen(port,()=>{
     console.log('8000');
 })
