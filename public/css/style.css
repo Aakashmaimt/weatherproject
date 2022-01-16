@@ -218,6 +218,7 @@ sup{
     }
     .tempInformation{
         width: 30rem;
+        margin-bottom: 4vh;
     }
     .temp_form{
         margin-left: 1rem;
@@ -235,6 +236,10 @@ sup{
     .main_layer .middle_layer .fa{
         font-size: 4rem;
         font-weight: 600;
+    }
+    sup{
+        font-size: 3rem;
+        margin-top: -5rem;
     }
 }
 .white{
