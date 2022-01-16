@@ -216,6 +216,26 @@ sup{
         height: auto;
         margin-top: 3rem;
     }
+    .tempInformation{
+        width: 30rem;
+    }
+    .temp_form{
+        margin-left: 1rem;
+    }
+    .temp_form input[type='text']{
+        width: 30rem;
+    }
+    .temp_form button{
+        top: 5px;
+        right: 5px;
+        bottom: 5px;
+        left: 185px;
+    }
+    .main_layer .middle_layer p,
+    .main_layer .middle_layer .fa{
+        font-size: 4rem;
+        font-weight: 600;
+    }
 }
 .white{
     color: white;
